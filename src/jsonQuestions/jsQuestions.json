@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "What is an array in js and what do you use an array for?",
+    "answer": "It's a type of object that's used to store data.  It's an ordered collection with associated indexes starting with 0."
+  },
+  {
+    "id": 2,
+    "question": "When would you use an object instead of an array?",
+    "answer": "You'd use an object to associate values with specific keys.  These have named properties versus arrays which have numbered indexes."
+  },
+  {
+    "id": 3,
+    "question": "What is a function?",
+    "answer": "A function is a reusable block of code that performs a particular task.  It takes an input which are the parameters and returns an output"
+  },
+  {
+    "id": 4,
+    "question": "What is the difference between a regular function and an asynchronous function?",
+    "answer": "Regular functions execute synchronously, which is line by line. With asynchronous functions it allows other code to still run while you await a promise to resolve."
+  },
+  {
+    "id": 5,
+    "question": "What is your process in error handling?",
+    "answer": "Firstly read the error and try to comprehend what's going on.  Track the error back to the line it's coming from. If the error is coming from inside a function, walk through how the function is supposed to work.  There are several ways to eliminate the problem, you can console log as needed to ensure your supposed be receiving the correct output.  You can also use stack overflow or google and paste the error there to eliminate what the issue might be."
+  },
+  {
+    "id": 6,
+    "question": "What is a closure?",
+    "answer": "A closure in JavaScript is a function that retains access to its lexical scope, even when the function is executed outside that scope. In simpler terms, a closure allows a function to access variables from its outer (enclosing) function scope even after the outer function has finished executing."
+  },
+  {
+    "id": 7,
+    "question": "What is a pure function?",
+    "answer": "It has no side effects and given the same input, it'll always return the same output."
+  },
+  {
+    "id": 8,
+    "question": "What is javascript?",
+    "answer": "It's a programming language written to be used with the DOM or web browser as a scripting language with HTML and CSS."
+  },
+  {
+    "id": 9,
+    "question": "Explain a REST API",
+    "answer": "An API or application programming interface, allows you to connect an application to another application.  REST stands for REpresentational State Transfer. It's a standard for creating the application and uses HTTP methods like get, post, put and delete."
+  },
+  {
+    "id": 10,
+    "question": "What is one way you can store authentication information to share with other components or pages?",
+    "answer": "A cookie, or local storage, or session storage"
+  },
+  {
+    "id": 11,
+    "question": "Explain the this keyword.",
+    "answer": ""
+  },
+  {
+    "id": 12,
+    "question": "What is scope?",
+    "answer": ""
+  }
+]

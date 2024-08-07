@@ -1,13 +1,52 @@
+html,
 body {
+  font-family: "Protest Riot";
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+li {
+  list-style: none;
+  text-transform: uppercase;
+  background-color: #08415c;
+  color: #fff;
+  padding: 0.2rem 0.6rem;
+  border-radius: 0.5rem;
+
+  box-shadow: 0.1rem 0.2rem 0.2rem black;
+}
+
+li:hover {
+  cursor: pointer;
+  box-shadow: 0rem 0rem 0.1rem black;
+  transform: translate(0.1rem, 0.1rem);
+}
+
+ul {
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: translate(0.1rem, 0.1rem);
+  box-shadow: 0rem 0rem 0rem black;
+}
+
+button {
+  font-family: inherit;
+  text-transform: uppercase;
+  background-color: #08415c;
+  color: #fff;
+  padding: 0.2rem 0.6rem;
+  border-radius: 0.5rem;
+}
+
+/* reusables */
+
+.centerCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

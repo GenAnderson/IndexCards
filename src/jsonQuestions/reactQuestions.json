@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "question": "What is context in react?",
+    "answer": "It's another way to pass data through components that elimates prop drilling.  It's meant to share data that would be considered global."
+  },
+  {
+    "id": 2,
+    "question": "What's the difference between functional components and class components?",
+    "answer": "Functional components don't have access to lifecycle methods the way class components do, but they do have hooks to achieve similar functionality"
+  },
+  {
+    "id": 3,
+    "question": "Explain the virtual DOM in react",
+    "answer": "React doesn't manipulate the DOM directly, instead, it has a virtual DOM which is like a copy. When state, props or context changes, it looks for differences in the virtual DOM's previous and current state and applies the changes to those components triggering a rerender."
+  },
+  {
+    "id": 4,
+    "question": "What is jsx?",
+    "answer": "It stands for javascript and xml.  Basically it lets you write HTML in a javascript file."
+  },
+  {
+    "id": 5,
+    "question": "Why is 'class' called 'className' in react?",
+    "answer": "Class is a reserved keyword in javascript.  You'll get an error if you try to use class.  Since JSX gets compiled, javascript will think you're trying to create a class and not style an element"
+  },
+  {
+    "id": 6,
+    "question": "Describe dataflow in react",
+    "answer": "Dataflow is unidirectional or one way. Specifically it flows downward from parent to child."
+  },
+  {
+    "id": 7,
+    "question": "What is a prop in react?",
+    "answer": "A prop or properties is an arguement passed in a react component.  It's data passed down from a parent to a child component."
+  },
+  {
+    "id": 8,
+    "question": "How do you pass a prop from the child back up to the parent component?",
+    "answer": "You would pass it through a callback function."
+  },
+  {
+    "id": 9,
+    "question": "What is state in react?",
+    "answer": "It's in object that contains information in a component that may change over the lifetime of the component"
+  },
+  {
+    "id": 10,
+    "question": "What is the difference between a controlled and uncontrolled component/input/element/form?",
+    "answer": ""
+  },
+  {
+    "id": 11,
+    "question": "What is React?",
+    "answer": "React is a javascript library.  It's useful in creating reusable UI components.  It uses State to update changes to the App."
+  },
+  {
+    "id": 12,
+    "question": "What are the benefits of using react?",
+    "answer": ""
+  },
+  {
+    "id": 13,
+    "question": "What is context in react?",
+    "answer": "It's another way to pass data through components that elimates prop drilling.  It's meant to share data that would be considered global."
+  }
+]

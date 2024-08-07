@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "question": "What is the SOLID principal?",
+    "answer": ""
+  },
+  {
+    "id": 2,
+    "question": "What is CRUD",
+    "answer": "It stands for create, read, update, and delete"
+  }
+]
