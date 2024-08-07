@@ -2,7 +2,7 @@
   {
     "id": 1,
     "question": "What is context in react?",
-    "answer": "It's another way to pass data through components that elimates prop drilling.  It's meant to share data that would be considered global."
+    "answer": "It's another way to pass data through components to avoid prop drilling.  It's meant to share data that would be considered global."
   },
   {
     "id": 2,
@@ -12,7 +12,7 @@
   {
     "id": 3,
     "question": "Explain the virtual DOM in react",
-    "answer": "React doesn't manipulate the DOM directly, instead, it has a virtual DOM which is like a copy. When state, props or context changes, it looks for differences in the virtual DOM's previous and current state and applies the changes to those components triggering a rerender."
+    "answer": "React doesn't manipulate the DOM directly, instead, it has a virtual DOM which is basically a copy. When state, props or context change, it looks for differences in the virtual DOM's previous and current state and applies the changes and renders the components."
   },
   {
     "id": 4,
@@ -42,26 +42,36 @@
   {
     "id": 9,
     "question": "What is state in react?",
-    "answer": "It's in object that contains information in a component that may change over the lifetime of the component"
+    "answer": "It's in object that contains data or information about the component.  That state may change over time and when it does, the component re-renders."
   },
   {
     "id": 10,
-    "question": "What is the difference between a controlled and uncontrolled component/input/element/form?",
-    "answer": ""
+    "question": "What is the difference between a controlled and uncontrolled component?",
+    "answer": "Controlled components rely on the React's state to manage the form data, while uncontrolled components use the DOM itself.  For example if you have a form that uses onChange in the inputs to store user input in a state, this is a controlled component.  Whereas, if you used `useRef` instead, this would be considered using the DOM."
   },
   {
     "id": 11,
     "question": "What is React?",
-    "answer": "React is a javascript library.  It's useful in creating reusable UI components.  It uses State to update changes to the App."
+    "answer": "React is an open-source javascript library developed by facebook.  It's used to create reusable UI components and web applications"
   },
   {
     "id": 12,
     "question": "What are the benefits of using react?",
-    "answer": ""
+    "answer": "Reusable components, fast rendering thanks to the virtual DOM, there's an active ReactJS community so finding solutions to specific issues isn't too difficult."
   },
   {
     "id": 13,
-    "question": "What is context in react?",
-    "answer": "It's another way to pass data through components that elimates prop drilling.  It's meant to share data that would be considered global."
+    "question": "How do you create components in react?",
+    "answer": "There's two ways: one is by creating a function component and the other is a class component."
+  },
+  {
+    "id": 14,
+    "question": "How do you conditionally render components?",
+    "answer": "JSX doesn't render false or undefinded.  So if you use short-circuiting (like the double ampersand symbol) or a ternary, you can conditionally render components."
+  },
+  {
+    "id": 15,
+    "question": "What are the stages a React component goes through or what happens during the lifecycle of a React component?",
+    "answer": "The lifecycle has four stages: 1. Initialization - The component is contructed with the given props and default state. This is done in the constructor of a component class  2. Mounting - The component is mounted on the DOM and rendered for the first time.  3. Updating - The state and props of a component are updated and the application is repainted. 4. Unmounting - The component is removed from the page and unmounted from the DOM."
   }
 ]
