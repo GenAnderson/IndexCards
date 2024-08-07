@@ -73,5 +73,30 @@
     "id": 15,
     "question": "What are the stages a React component goes through or what happens during the lifecycle of a React component?",
     "answer": "The lifecycle has four stages: 1. Initialization - The component is contructed with the given props and default state. This is done in the constructor of a component class  2. Mounting - The component is mounted on the DOM and rendered for the first time.  3. Updating - The state and props of a component are updated and the application is repainted. 4. Unmounting - The component is removed from the page and unmounted from the DOM."
+  },
+  {
+    "id": 16,
+    "question": "What are react components? Why are components so important to react?",
+    "answer": "Components are the building materials used in React to create websites and application UI. Components are important to React because they break a UI down into reusable parts, which allows React to render each UI component as needed. Components can be attributed to speed and performance efficiency in react."
+  },
+  {
+    "id": 17,
+    "question": "Whats the difference between props and state?",
+    "answer": "State describes a changeable default data value in a react component.  It's subject to change with time.  Props or properties is used to pass data from one component to another."
+  },
+  {
+    "id": 18,
+    "question": "When would you use a class component over a functional component?",
+    "answer": "Functional components for the most part can access lifecycle methods thanks to hooks like useEffect.  However, they still can't implement error boundaries the way class components can."
+  },
+  {
+    "id": 19,
+    "question": "What are the building blocks of React?",
+    "answer": "Components, JSX, props and state, context, and the virtual DOM"
+  },
+  {
+    "id": 20,
+    "question": "What is a key in React?",
+    "answer": "A key is a special string attribute you need to include when creating lists of elements in React. Keys are used in React to identify which items in the list are changed, updated, or deleted. In other words, we can say that keys are used to give an identity to the elements in the lists."
   }
 ]
