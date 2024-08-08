@@ -12,7 +12,7 @@
   {
     "id": 3,
     "question": "What is a function?",
-    "answer": "A function is a reusable block of code that performs a particular task.  It takes an input which are the parameters and returns an output"
+    "answer": "A function is a reusable block of code that performs a specific task.  It usually takes an input and returns an output"
   },
   {
     "id": 4,
@@ -52,11 +52,31 @@
   {
     "id": 11,
     "question": "Explain the this keyword.",
-    "answer": ""
+    "answer": "The this keyword refers to or points to the context in which a function is executed.  The value of the this keyword depends on how the function is called.  For example, inside an object, this refers to the object that owns the method."
   },
   {
     "id": 12,
     "question": "What is scope?",
-    "answer": ""
+    "answer": "In JavaScript, scope refers to the context in which variables, functions, and objects are accessible. It determines where variables can be declared, used, and modified. There's the global scope and local scope."
+  },
+  {
+    "id": 13,
+    "question": "Explain asynchronous programming.",
+    "answer": "JavaScript is traditionally single-threaded, meaning it can only execute one operation at a time. However, many tasks (like fetching data from a server, reading files, or waiting for a timer) can take time, and we don't want these operations to block the main thread. This is where asynchronous programming comes in. Asynchronous programming allows JavaScript to handle long-running tasks without stopping the execution of the main program. Instead of waiting for a task to complete, JavaScript can continue executing other code and handle the task's result when it’s done."
+  },
+  {
+    "id": 14,
+    "question": "Explain async/await.",
+    "answer": "Async/await is a way of handling promises. You start your function with async and you await the promise to be returned before moving on to the next line"
+  },
+  {
+    "id": 15,
+    "question": "Difference between let, const, and var.",
+    "answer": "Const can't be reassigned.  Let and var can be reassigned but the difference is, with var, it's not block scoped."
+  },
+  {
+    "id": 16,
+    "question": "What is hoisting?",
+    "answer": "When you declare variables or function declarations, it'll pull it to the very top of their scope so you have access to it."
   }
 ]

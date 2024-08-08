@@ -27,7 +27,7 @@
   {
     "id": 6,
     "question": "Describe dataflow in react",
-    "answer": "Dataflow is unidirectional or one way. Specifically it flows downward from parent to child."
+    "answer": "Dataflow is unidirectional or one way. All of the components in react have a parent/child relationship so you're passing data down from above (parent to child).  This data is props."
   },
   {
     "id": 7,
@@ -77,12 +77,12 @@
   {
     "id": 16,
     "question": "What are react components? Why are components so important to react?",
-    "answer": "Components are the building materials used in React to create websites and application UI. Components are important to React because they break a UI down into reusable parts, which allows React to render each UI component as needed. Components can be attributed to speed and performance efficiency in react."
+    "answer": "Components are the building materials used in React to create websites and application UI. Components are important to React because they break a UI down into reusable parts."
   },
   {
     "id": 17,
     "question": "Whats the difference between props and state?",
-    "answer": "State describes a changeable default data value in a react component.  It's subject to change with time.  Props or properties is used to pass data from one component to another."
+    "answer": "State describes a changeable default data value in a react component.  It's subject to change with time.  Props or properties doesn't changed and is used to pass data from one component to another."
   },
   {
     "id": 18,
@@ -97,6 +97,11 @@
   {
     "id": 20,
     "question": "What is a key in React?",
-    "answer": "A key is a special string attribute you need to include when creating lists of elements in React. Keys are used in React to identify which items in the list are changed, updated, or deleted. In other words, we can say that keys are used to give an identity to the elements in the lists."
+    "answer": "A key is an attribute you need to include when creating lists of elements in React. Keys are used in React to identify which items in the list are changed, updated, or deleted. In other words, we can say that keys are used to give an identity to the elements in the lists."
+  },
+  {
+    "id": 21,
+    "question": "How would you delay an API call until a component has mounted?",
+    "answer": "I'm not super familiar with class components but I believe there is a lifecycle method component did mount so you can use that and then make the API call.  In a function component, you can use the useEffect hook and pass an empty array in the second arguement.  If you leave it empty it basically mimics component did mount, so it'll wait until then to make the API call."
   }
 ]
