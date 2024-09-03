@@ -12,12 +12,12 @@
   {
     "id": 3,
     "question": "Explain the virtual DOM in react",
-    "answer": "React doesn't manipulate the DOM directly, instead, it has a virtual DOM which is basically a copy. When state, props or context change, it looks for differences in the virtual DOM's previous and current state and applies the changes and renders the components."
+    "answer": "React doesn't manipulate the DOM directly, instead, it has a virtual DOM which is basically a copy. When state, props or context change, it looks for differences in the virtual DOM and only updates what has changed in the real DOM"
   },
   {
     "id": 4,
     "question": "What is jsx?",
-    "answer": "It stands for javascript and xml.  Basically it lets you write HTML in a javascript file."
+    "answer": "It's short for javascript and xml.  Basically like a combination of HTML and javascript."
   },
   {
     "id": 5,
@@ -82,7 +82,7 @@
   {
     "id": 17,
     "question": "Whats the difference between props and state?",
-    "answer": "State describes a changeable default data value in a react component.  It's subject to change with time.  Props or properties doesn't changed and is used to pass data from one component to another."
+    "answer": "State describes a changeable default data value in a react component.  It's subject to change with time.  Props or properties is immutable and is used to pass data from one parent to child component."
   },
   {
     "id": 18,
@@ -97,7 +97,7 @@
   {
     "id": 20,
     "question": "What is a key in React?",
-    "answer": "A key is an attribute you need to include when creating lists of elements in React. Keys are used in React to identify which items in the list are changed, updated, or deleted. In other words, we can say that keys are used to give an identity to the elements in the lists."
+    "answer": "A key is an attribute you need to include when creating lists of elements in React. Keys are unique and used to identify which items in the list are changed, updated, or deleted. In other words, we can say that keys are used to give an identity to the elements in the lists."
   },
   {
     "id": 21,
