@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "What's an ER diagram?",
+    "answer": "It's an Entity Relationship Diagram.  It shows you the relationship amongst the tables, like many to many, many to one, or one to one.  For example you could have two tables, one for customers and one for orders.  This may be a a many to many relationship because your orders table might have orders placed by multiple people and your people table might have many orders placed per person"
+  },
+  {
+    "id": 2,
+    "question": "What are the different joins and what do they do?",
+    "answer": "An inner join will remove rows that can't match ids.  If you want to keep rows depending on the tables, you can use a left join, right join or full join also known as outer join.  Left join prioritizes the table on the left or the first table so it'll get rid of missing unmatched rows on the right or second table, right join prioritizes the right. Full join or outer join will let us see the entirety of all tables."
+  },
+  {
+    "id": 3,
+    "question": "What's the difference between a view, a CTE, and a temp table?",
+    "answer": "CTE or Common Table Expression only exists for a single query. You can reference it many times inside that query so it's good for breaking down logic to manageable parts.  Temp tables similar to views last a little longer.  They exist for the duration of the session or unless specifically dropped."
+  },
+  {
+    "id": 4,
+    "question": "What does indexing do?",
+    "answer": "It's supposed to improve performance by increasing the speed of searches.  You can create an index by starting with 'CREATE INDEX'"
+  },
+  {
+    "id": 5,
+    "question": "What's the difference between a foreign key & primary key?",
+    "answer": "A primary key is a unique identifier for an entry or a row, whereas a foreign key is a reference that primary key from a different table"
+  },
+  {
+    "id": 6,
+    "question": "How would you start organizing a database you just imported?",
+    "answer": "I think first I'd like to copy the table I'm working with instead of working directly with the raw data just in case I make a mistake. First I'd try to familiarize myself with the contents of the tables. Then I'd want to clean the data a bit, probably starting with duplicates that might not be needed and trimming off trailing spaces.  From there I'd probably standardize the entry, meaning if there's common entries but syntax or spelling errors, I'd want to make sure the entries are consistent or the same. Then there's null or blank values to consider, I may want to make sure they're all filled in."
+  }
+]

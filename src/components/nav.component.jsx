@@ -8,7 +8,7 @@ const Nav = ({ categorySelection }) => {
       <li onClick={() => handleSelection("React")}>React</li>
       <li onClick={() => handleSelection("JS")}>JS</li>
       <li onClick={() => handleSelection("General")}>General </li>
-      {/* <li onClick={() => handleSelection("dotNet")}>dotNet</li> */}
+      <li onClick={() => handleSelection("sql")}>SQL</li>
     </ul>
   );
 };
