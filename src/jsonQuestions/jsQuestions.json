@@ -52,7 +52,7 @@
   {
     "id": 11,
     "question": "Explain the this keyword.",
-    "answer": "The this keyword refers to or points to the context in which a function is executed.  The value of the this keyword depends on how the function is called.  For example, inside an object, this refers to the object that owns the method."
+    "answer": "The this keyword refers to or points to the context in which a function is executed or in other words, it refers to the current calling context. The value of the this keyword depends on how the function is called.  For example, as a method or object, this refers to the owner of that method or object.  In an arrow function, they inherit their value from the enclosing scope or lexical scope where they're defined."
   },
   {
     "id": 12,
@@ -77,7 +77,7 @@
   {
     "id": 16,
     "question": "What is hoisting?",
-    "answer": "It's a javascript concept that refers to the process of moving declarations to the top of their scope. It means variables and functions can be used before they're declared."
+    "answer": "Javascript reads code from top to bottom, one line at a time.  Hoisting lifts your function declarations to the top of your code.  This means if you call that function before it declared, it still works.  That's hoisting. Function expressions do not get hoisted, neither does using let or const.  Var on the other hand, gets hoisted but is only initialized as undefined.  So this still technically doesn't work with var."
   },
   {
     "id": 17,
